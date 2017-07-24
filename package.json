@@ -21,11 +21,11 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "ruby": "ruby -v",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "sass": "sass --watch src/styles/scss/index.scss:src/styles/css/index.css",
     "sass:build": "sass src/styles/scss/index.scss:src/styles/css/index.css",
-    "postinstall": "ruby -v"
   },
   "proxy": "http://localhost:5000"
 }
