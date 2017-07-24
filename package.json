@@ -25,7 +25,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "sass": "sass --watch src/styles/scss/index.scss:src/styles/css/index.css",
-    "sass:build": "sass src/styles/scss/index.scss:src/styles/css/index.css",
+    "sass:build": "sass src/styles/scss/index.scss:src/styles/css/index.css"
   },
   "proxy": "http://localhost:5000"
 }
